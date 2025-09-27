@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito:wght@200..1000&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <main class="hero-layout">
+        <!-- Hero Content -->
+        <section class="hero-content">
+          <div class="lp-banner-contents">
+            <!-- Navbar -->
+            <header class="navbar">
+              <div class="logo">
+                <img
+                  src="../assets/Logo.png"
+                  alt="Logo"
+                  loading="lazy"
+                  fetchpriority="high"
+                />
+                <h1>Hello World!</h1>
+              </div>
+
+              <nav class="nav-links desktop-nav">
+                <a href="#">Course</a>
+                <a href="#">Info</a>
+                <a href="#">Testimonial</a>
+                <a href="#">Categories</a>
+              </nav>
+
+              <!-- Burger Menu -->
+              <button class="burger-menu-btn" aria-label="Open menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </button>
+            </header>
+
+            <!-- Sidebar -->
+            <aside class="sidebar" id="sidebar">
+              <button class="close-btn" aria-label="Close menu">&times;</button>
+              <nav class="sidebar-nav-links">
+                <a href="#">Course</a>
+                <a href="#">Info</a>
+                <a href="#">Testimonial</a>
+                <a href="#">Categories</a>
+              </nav>
+            </aside>
+
+            <!-- Banner Text -->
+            <h2 class="title-large">
+              Learn graphics <br />
+              design for life
+              <span class="orange-star">
+                <img
+                  src="../assets/star.png"
+                  alt="icon"
+                  loading="lazy"
+                  fetchpriority="high"
+                />
+              </span>
+            </h2>
+            <p class="subtitle">
+              Stay Informed. Stay Ahead: Unveiling the Future of Technology,
+              Gadgets, and Innovation
+            </p>
+            <p class="description">
+              Your Gateway to the Digital Universe - Where Innovation Meets
+              Insight
+            </p>
+
+            <!-- Students Data -->
+            <div class="students-data">
+              <div class="student-text">
+                <span class="students-count">5.1 K</span>
+                <span class="students-text">Students All Over World</span>
+              </div>
+              <div class="student-avatars">
+                <img
+                  src="../assets/std1.webp"
+                  alt="Student 1"
+                  class="avatar"
+                  loading="lazy"
+                  fetchpriority="high"
+                />
+                <img
+                  src="../assets/std2.png"
+                  alt="Student 2"
+                  class="avatar"
+                  loading="lazy"
+                  fetchpriority="high"
+                />
+                <img
+                  src="../assets/std3.png"
+                  alt="Student 3"
+                  class="avatar"
+                  loading="lazy"
+                  fetchpriority="high"
+                />
+              </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="cta-buttons">
+              <button class="cta-book">Book Your Seat</button>
+              <a href="#" class="cta-journey">
+                <span class="play-icon">▶</span> See Journey
+              </a>
+            </div>
+          </div>
+
+          <!-- counter Section -->
+          <div class="counter-container">
+            <div class="counter-item">
+              <span class="vertical-line"></span>
+              <div class="counter-content">
+                <div class="counter-number">6409</div>
+                <div class="counter-label">Success Story</div>
+              </div>
+            </div>
+
+            <div class="counter-item">
+              <span class="vertical-line"></span>
+              <div class="counter-content">
+                <div class="counter-number">124</div>
+                <div class="counter-label">Expert Instructor</div>
+              </div>
+            </div>
+
+            <div class="counter-item">
+              <span class="vertical-line"></span>
+              <div class="counter-content">
+                <div class="counter-number">54.749</div>
+                <div class="counter-label">Hours Tutored</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Image Grid -->
+        <aside class="image-grid">
+          <div class="circle-image-wrapper">
+            <img
+              src="../assets/grid-img1.png"
+              alt="Student Profile 1"
+              loading="lazy"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="square-image-wrapper">
+            <img
+              src="../assets/grid-img2.png"
+              alt="Student Profile 2"
+              loading="lazy"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="circle-image-wrapper">
+            <img
+              src="../assets/grid-img3.png"
+              alt="Student Profile 3"
+              loading="lazy"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="square-image-wrapper">
+            <img
+              src="../assets/grid-img4.png"
+              alt="Student Profile 4"
+              loading="lazy"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="circle-image-wrapper">
+            <img
+              src="../assets/grid-img5.png"
+              alt="Student Profile 5"
+              loading="lazy"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="square-image-wrapper">
+            <img
+              src="../assets/grid-img6.png"
+              alt="Student Profile 6"
+              loading="lazy"
+              fetchpriority="high"
+            />
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
